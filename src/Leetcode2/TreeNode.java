@@ -1,4 +1,4 @@
-package Leetcode2;
+package leetcode;
 
 /**
  * 二叉树的节点

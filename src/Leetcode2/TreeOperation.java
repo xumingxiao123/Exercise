@@ -1,4 +1,4 @@
-package Leetcode2;
+package leetcode;
 
 
 

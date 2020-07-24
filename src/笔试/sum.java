@@ -1,3 +1,5 @@
+package 面试;
+
 import java.util.HashMap;
 import java.util.Scanner;
 //        int[] arr1={2,3,2,5};
