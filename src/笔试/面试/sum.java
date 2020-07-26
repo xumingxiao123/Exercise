@@ -1,7 +1,7 @@
-package 面试;
+package 笔试;
 
 import java.util.HashMap;
-import java.util.Scanner;
+
 //        int[] arr1={2,3,2,5};
 //        int[] arr2={3,2,8};
 // 找出arr1和arr2中相同的的元素求和。

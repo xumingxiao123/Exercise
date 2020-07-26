@@ -1,4 +1,4 @@
-package 面试;
+package 笔试;
 
 public class 排序 {
     public static void main(String[] args) {

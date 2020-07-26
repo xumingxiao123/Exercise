@@ -1,4 +1,4 @@
-package 面试;
+package 笔试;
 
 public class 找出最大的k个数 {
     public static void main(String[] args) {
