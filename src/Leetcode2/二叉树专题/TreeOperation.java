@@ -1,6 +1,4 @@
-package leetcode;
-
-
+package Leetcode2;
 
 
 //原文链接：https://blog.csdn.net/lenfranky/article/details/89645755
