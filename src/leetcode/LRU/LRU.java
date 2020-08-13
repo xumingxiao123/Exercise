@@ -1,4 +1,4 @@
 package leetcode.LRU;
 
-public class LRUCache {
+public class LRU {
 }
