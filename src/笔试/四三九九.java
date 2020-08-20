@@ -5,8 +5,8 @@ import java.util.List;
 
 public class 四三九九 {
     public static void main(String[] args) {
-
-
+       char[] sh={'a','f'};
+       System.out.print(sh);
 
     }
 //    private  static ArrayList<Integer> gen_list(int n){
