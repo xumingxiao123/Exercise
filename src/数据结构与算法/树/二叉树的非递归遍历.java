@@ -36,7 +36,7 @@ public class 二叉树的非递归遍历 {
         Stack<TreeNode> stack=new Stack<>();
        // stack.push(p);
         while(!stack.isEmpty()||p!=null){
-            //先找到最左边结点
+            //先找到最左边结点，并依次入栈
             while (p!=null){
                 stack.push(p);
                 p=p.left;

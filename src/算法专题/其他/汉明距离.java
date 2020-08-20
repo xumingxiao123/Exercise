@@ -1,4 +1,4 @@
-package Leetcode2.其他;
+package 算法专题.其他;
 
 public class 汉明距离 {
 

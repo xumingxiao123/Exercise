@@ -1,4 +1,4 @@
-package Leetcode2.二叉树专题;
+package 算法专题.二叉树专题;
 
 public class createTree {
     public static TreeNode buildTree(int[] preorder, int[] inorder) {

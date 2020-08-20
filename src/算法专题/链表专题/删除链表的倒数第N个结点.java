@@ -1,4 +1,4 @@
-package Leetcode2.链表专题;
+package 算法专题.链表专题;
 
 public class 删除链表的倒数第N个结点 {
     public static void main(String[] args) {

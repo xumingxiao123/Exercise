@@ -1,4 +1,4 @@
-package Leetcode2.数组;
+package 算法专题.数组;
 
 import java.util.ArrayList;
 import java.util.List;

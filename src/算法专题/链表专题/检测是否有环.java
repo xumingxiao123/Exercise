@@ -1,4 +1,4 @@
-package Leetcode2.链表专题;
+package 算法专题.链表专题;
 
 public class 检测是否有环 {
     public static void main(String[] args) {

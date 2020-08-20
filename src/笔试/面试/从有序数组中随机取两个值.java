@@ -1,4 +1,4 @@
-package 笔试;
+package 笔试.面试;
 
 public class 从有序数组中随机取两个值 {
     public static void main(String[] args) {

@@ -13,8 +13,8 @@ public class 主函数 {
         //最小的k的个数.help(nums,0,nums.length-1,6);
         //System.out.println();
 
-        //归并排序.main(nums);
-        堆排序.headSort(nums);
+        归并排序.main(nums);
+        //堆排序.headSort(nums);
         for (int num : nums) {
             System.out.print(num + " ");
         }

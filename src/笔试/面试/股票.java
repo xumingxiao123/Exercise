@@ -1,4 +1,4 @@
-package 笔试;
+package 笔试.面试;
 
 public class 股票 {
         public static void main(String[] args) {

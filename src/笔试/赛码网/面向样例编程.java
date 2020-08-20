@@ -1,4 +1,4 @@
-package 数据结构与算法.其他.赛码网;
+package 笔试.赛码网;
 
 public class 面向样例编程 {
 //public class Main {

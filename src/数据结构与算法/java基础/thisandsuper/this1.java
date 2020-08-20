@@ -1,4 +1,4 @@
-package 学习中代码.java基础.thisandsuper;
+package 数据结构与算法.java基础.thisandsuper;
 
 public class this1 {
         private String name;

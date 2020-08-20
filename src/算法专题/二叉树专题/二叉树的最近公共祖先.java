@@ -1,4 +1,4 @@
-package Leetcode2.二叉树专题;
+package 算法专题.二叉树专题;
 
 public class 二叉树的最近公共祖先 {
     public static void main(String[] args) {

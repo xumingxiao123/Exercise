@@ -1,4 +1,4 @@
-package Leetcode2.链表专题;
+package 算法专题.链表专题;
 
 public class 翻转链表 {
     public static void main(String[] args) {

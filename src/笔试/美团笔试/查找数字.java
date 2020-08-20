@@ -1,4 +1,4 @@
-package 数据结构与算法.其他.美团笔试;
+package 笔试.美团笔试;
 
 import java.util.Scanner;
 //给定一串可重复的,排序后的数字,查找指定数字最后一次出现的位置

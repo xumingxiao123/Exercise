@@ -1,6 +1,5 @@
-package Leetcode2.链表专题;
+package 算法专题.链表专题;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class 回文链表 {

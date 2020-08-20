@@ -1,4 +1,4 @@
-package 设计模式;
+package 数据结构与算法.设计模式;
 
 public class 单例模式懒汉式 {
     public static void main(String[] args) {

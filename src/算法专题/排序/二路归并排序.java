@@ -1,6 +1,4 @@
-package Leetcode2.排序;
-
-import com.sun.scenario.effect.Merge;
+package 算法专题.排序;
 
 public class 二路归并排序 {
     public static void main(String[] args) {

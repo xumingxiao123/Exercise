@@ -9,7 +9,7 @@ import java.util.HashMap;
 
 public class 无重复字符的最长子串 {
     public static void main(String[] args) {
-        String str1="eeeeeeeeabcdefghid";
+        String str1="abba";
         System.out.println(lengthOfLongestSubstring(str1));
     }
     public  static  int lengthOfLongestSubstring(String str){

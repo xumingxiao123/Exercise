@@ -1,4 +1,4 @@
-package 数据结构与算法.其他.赛码网.测试;
+package 笔试.赛码网.测试;
 
 import java.util.*;
 

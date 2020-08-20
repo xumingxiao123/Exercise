@@ -1,6 +1,4 @@
-package 面试;
-
-import java.util.*;
+import java.util.Scanner;
 
 //https://exercise.acmcoder.com/online/online_judge_ques?ques_id=9579&konwledgeId=137&opencustomeinput=true
 // 写代码时不要带中文注释

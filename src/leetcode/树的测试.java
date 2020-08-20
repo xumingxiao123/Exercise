@@ -1,5 +1,7 @@
 package leetcode;
 
+
+
 public class 树的测试 {
     public static void main(String[] args) {
         //构造树
@@ -9,6 +11,7 @@ public class 树的测试 {
 
 
     }
+
     public static  TreeNode   createTree(){
         TreeNode a = new TreeNode(1);
         TreeNode b = new TreeNode(2);

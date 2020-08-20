@@ -1,6 +1,4 @@
-package 面试;
-
-import java.util.*;
+import java.util.Scanner;
 
 /*
 样例题目及程序

@@ -1,4 +1,4 @@
-package 学习中代码.java基础.基本类型;
+package 数据结构与算法.java基础.基本类型;
 
 public class 基本类型 {
     //32

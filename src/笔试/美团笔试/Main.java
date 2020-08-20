@@ -1,4 +1,4 @@
-package 数据结构与算法.其他.美团笔试;
+package 笔试.美团笔试;
 
 import java.util.ArrayList;
 import java.util.Scanner;

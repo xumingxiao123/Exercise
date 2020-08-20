@@ -1,4 +1,4 @@
-package Leetcode2.栈和队列;
+package 算法专题.栈和队列;
 
 import java.util.Stack;
 

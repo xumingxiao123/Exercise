@@ -1,4 +1,4 @@
-package Leetcode2.数组;
+package 算法专题.数组;
 
 public class 多数元素 {
     public static void main(String[] args) {

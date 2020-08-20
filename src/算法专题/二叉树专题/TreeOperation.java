@@ -1,4 +1,4 @@
-package Leetcode2.二叉树专题;
+package 算法专题.二叉树专题;
 
 
 //原文链接：https://blog.csdn.net/lenfranky/article/details/89645755

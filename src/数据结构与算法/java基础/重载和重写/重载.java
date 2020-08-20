@@ -1,4 +1,4 @@
-package 学习中代码.java基础.重载和重写;
+package 数据结构与算法.java基础.重载和重写;
 
 public class 重载 {
     public static void sayhello(int s){

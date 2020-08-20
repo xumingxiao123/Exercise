@@ -1,4 +1,4 @@
-package Leetcode2.位运算;
+package 算法专题.位运算;
 
 public class 只出现一次的数字 {
     public static void main(String[] args) {

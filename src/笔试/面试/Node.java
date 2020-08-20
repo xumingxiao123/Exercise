@@ -1,4 +1,4 @@
-package 笔试;
+package 笔试.面试;
 
 class Node {
     public int key, val;

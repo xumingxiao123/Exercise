@@ -1,11 +1,11 @@
-package 数据结构与算法;
+package 数据结构与算法.回溯算法;
 
 import 笔试.美团笔试.Main;
 
 import java.util.LinkedList;
 import java.util.List;
 
-public class 回溯 {
+class 全排列 {
 
     public static void main(String[] args) {
         List<List<Integer>> res = new LinkedList<>();

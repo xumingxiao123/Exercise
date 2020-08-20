@@ -1,4 +1,4 @@
-package Leetcode2.排序;
+package 算法专题.排序;
 
 public class 直接插入排序 {
     public static void main(String[] args) {

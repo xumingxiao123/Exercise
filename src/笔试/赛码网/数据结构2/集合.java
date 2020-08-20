@@ -1,4 +1,4 @@
-package 数据结构与算法.其他.赛码网.数据结构2;
+package 笔试.赛码网.数据结构2;
 
 //链接：https://exercise.acmcoder.com/online/online_judge_ques?ques_id=3374&konwledgeId=41
 //给你两个集合，要求 {A} + {B}。

@@ -1,6 +1,5 @@
-package Leetcode2.二叉树专题;
+package 算法专题.二叉树专题;
 
-import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
 

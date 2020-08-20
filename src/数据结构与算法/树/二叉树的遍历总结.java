@@ -158,13 +158,15 @@ public class 二叉树的遍历总结 {
                 p = p.left;
             }
             p = stack.peek().right;
+            //如果有右节点，则进栈，直到栈顶元素没有右节点
             if (p == null || p == prev) {
                 //若栈顶节点的右节点为空或者已经visit过，则按顺序应该访问栈顶节点
                 p = stack.pop();
                 visit(p);
                 //prev用来标记已经visit过这个节点
                 prev = p;
-                p = null;
+                //令p=null,
+                //p = null;
             }
         }
     }

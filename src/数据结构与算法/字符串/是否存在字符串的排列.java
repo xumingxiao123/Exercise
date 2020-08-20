@@ -6,8 +6,8 @@ package 数据结构与算法.字符串;
  * */
 public class 是否存在字符串的排列 {
     public static void main(String[] args) {
-        String str1="cba";
-        String str2="abcdefg";
+        String str1="ccad";
+        String str2="ad";
 
         System.out.println(checkInclusion(str1,str2));
     }
