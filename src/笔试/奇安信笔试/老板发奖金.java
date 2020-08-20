@@ -1,3 +1,5 @@
+package 笔试.奇安信笔试;
+
 import sun.applet.Main;
 
 public class 老板发奖金 {

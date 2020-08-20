@@ -1,3 +1,5 @@
+package 笔试.奇安信笔试;
+
 import java.util.HashMap;
 import java.util.Scanner;
 
