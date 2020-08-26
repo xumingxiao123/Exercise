@@ -1,3 +1,5 @@
+package 笔试;
+
 import java.util.*;
 public class 进制 {
 
