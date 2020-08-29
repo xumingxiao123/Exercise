@@ -1,3 +1,5 @@
+package 笔试.科大讯飞;
+
 import java.util.Scanner;
 
 public class 下滑线 {

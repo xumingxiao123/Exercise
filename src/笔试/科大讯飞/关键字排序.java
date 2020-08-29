@@ -1,3 +1,5 @@
+package 笔试.科大讯飞;
+
 import java.util.Scanner;
 
 public class 关键字排序 {
