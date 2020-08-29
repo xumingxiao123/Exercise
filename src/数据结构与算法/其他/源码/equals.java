@@ -9,6 +9,7 @@ public class equals {
         System.out.println(m == n);  // true
         //System.out.println(m.hashCode());  // 报错
         //System.out.println(n.hashcode());  // 报错
+
         /*
         key不能为基本数据类型，则是因为基本数据类型不能调用其hashcode()方法和equals()方法，进行比较，
         所以HashMap集合的key只能为引用数据类型，不能为基本数据类型

@@ -14,7 +14,7 @@ public class hashmap {
         //map.put(y,x);
         //map.put(y,x);
         System.out.println(map.put(y,x));
-
+        Queue<Integer> queue =new LinkedList<>();
         System.out.println(map.put(y,x));
 //        System.out.println(map.containsKey(y));
 //        System.out.println(map.containsValue(x));
