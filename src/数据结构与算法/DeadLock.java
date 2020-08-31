@@ -1,3 +1,5 @@
+package 数据结构与算法;
+
 public class DeadLock {
     public static String obj1 = "obj1";
     public static String obj2 = "obj2";
