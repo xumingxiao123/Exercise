@@ -1,4 +1,4 @@
-package 笔试;
+package 笔试.其他笔试;
 
 import java.util.List;
 //树的数据结构

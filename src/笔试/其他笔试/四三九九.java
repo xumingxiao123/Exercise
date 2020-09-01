@@ -1,0 +1,21 @@
+package 笔试.其他笔试;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class 四三九九 {
+    public static void main(String[] args) {
+       char[] sh={'a','f'};
+       System.out.print(sh);
+
+    }
+//    private  static ArrayList<Integer> gen_list(int n){
+//        ArrayList<Integer> list =new ArrayList<>();
+//        if(n<0) return list;
+//        for(int i=0;i<=n;i++){
+//            list.add(i);
+//        }
+//        return  list;
+//    }
+
+}
