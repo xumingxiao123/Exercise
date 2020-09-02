@@ -20,6 +20,5 @@ public class 求500以内的正整数 {
                 return  true;
         }
         return  false;
-
     }
 }
