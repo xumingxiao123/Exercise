@@ -1,3 +1,5 @@
+package 笔试.其他笔试;
+
 import java.util.Scanner;
 
 public class 牛牛和爷爷 {
