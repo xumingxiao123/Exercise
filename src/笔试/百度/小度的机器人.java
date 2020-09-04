@@ -1,3 +1,5 @@
+package 笔试.百度;
+
 import java.util.Scanner;
 
 public class 小度的机器人 {
