@@ -18,20 +18,29 @@ public class 查找定位 {
             nums[i]=list.get(i);
         }
         k=list.get(list.size()-1);
-        helper(nums,0,nums.length-1,k);
-    }
-    public  static void helper(int[]arr,int low,int high,int k){
-        if(k < arr[low] || k > arr[high] || low > high){
-            return;
+        int low=0;
+        int high=nums.length-1;
+        int mid=0;
+        while(low<=high){
+            mid=(low+high)/2;
+            if(nums[mid]==k){
+                break;
+            }else if(nums[mid]<k){
+                low=mid+1;
+            }else {
+                high=mid-1;
+            }
         }
-        int mid=(low+high)/2;
-        if(arr[mid]==k){
+        if (nums[mid]==k){
             System.out.println(mid);
-            return;
-        }else if(arr[mid]<k){
-            helper(arr,mid+1,high,k);
-        }else{
-            helper(arr,low,mid-1,k);
+        } else{
+            if (nums[mid]<k){
+                System.out.println(low);
+            }else{
+                System.out.println(high);
+            }
+
         }
     }
+
 }
