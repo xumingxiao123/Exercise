@@ -7,10 +7,38 @@ public class 走迷宫 {
         Scanner cin = new Scanner(System.in);
         int a=cin.nextInt();
         int b=cin.nextInt();
-        for (int i=0;i<5;i++){
+        char[][] nums=new char[a][b];
+        for (int i=0;i<a;i++){
             String s = cin.next();
+            for (int j=0;j<b;j++){
+               nums[i][j]=s.charAt(j);
+            }
         }
+        int count=0;
+        int i=0;
+            for (int j=0;j<b;j++){
+                if (nums[i][j]=='.') count++;
+            }
 
-        System.out.println("NO");
+         i=a-1;
+            for (int j=0;j<b;j++){
+                if (nums[i][j]=='.') count++;
+            }
+
+        int j=0;
+        for (i=0;i<a;i++){
+
+                if (nums[i][j]=='.') count++;
+        }
+        j=b-1;
+        for ( i=0;i<a;i++){
+
+                if (nums[i][j]=='.') count++;
+        }
+        if (count>1){
+            System.out.println("Yes");
+        }else {
+            System.out.println("NO");
+        }
     }
 }

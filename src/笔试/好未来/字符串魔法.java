@@ -12,7 +12,7 @@ public class 字符串魔法 {
         int[][] dp= new int [n][n];
         for (int i=0;i<n;i++){
             for (int j=0;j<n;j++){
-                 dp[i][j]=1;
+                 dp[i][j]=-1;
             }
         }
         System.out.println(helper(0,n-1,dp,s));
