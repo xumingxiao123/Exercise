@@ -30,7 +30,7 @@ public class 数字排列 {
         for (nn=0;nn<m-n+1;nn++){
             if (LeftValue[nn]==ALeftValue[0]){
                 int count=nn;
-                Boolean b=true;
+                boolean b=true;
                 for (int mm=0;mm<n;mm++){
                     if (LeftValue[count]!=ALeftValue[mm]||RightValue[count]!=ARightValue[mm]){
                         b=false;
@@ -38,14 +38,6 @@ public class 数字排列 {
                     }
                     count++;
                 }
-//                if (b){
-//                    for (int mm=0;mm<n;mm++){
-//                        if (RightValue[count]!=ARightValue[mm]){
-//                            b=false;
-//                            break;
-//                        }
-//                    }
-//                }
                 if (b){
                     break;
                 }
