@@ -9,7 +9,7 @@ public class 验证密码复杂性 {
         ArrayList<String> list=new ArrayList<>();
         ArrayList<String> listResult=new ArrayList<>();
         while(cin.hasNextLine()){
-            list.add(cin.next());
+            list.add(cin.nextLine());
         }
         for (String n:list){
             int t1=0;
@@ -38,9 +38,10 @@ public class 验证密码复杂性 {
                 listResult.add("Irregular password");
                 //System.out.print("Irregular password");
             }
-            for (String m:listResult){
-                System.out.println(m);
-            }
+
+        }
+        for (String m:listResult){
+            System.out.println(m);
         }
 
 
