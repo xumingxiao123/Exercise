@@ -19,7 +19,6 @@ public class 最多的回文串 {
                 right++;
 
             }
-
         }
         System.out.print(count);
     }
