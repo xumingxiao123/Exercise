@@ -55,7 +55,5 @@ public class 大富翁游戏 {
             maxn=Math.max(maxn,dp[i]);
         }
         System.out.println(maxn);
-       
-
     }
 }
