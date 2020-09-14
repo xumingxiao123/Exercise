@@ -2,7 +2,7 @@ package 笔试.巨人网络;
 
 public class 字符串中最大公共子串 {
     public static void main(String[] args) {
-        System.out.print(GetCommon("abccade","dgc"));
+        System.out.print(GetCommon("abccade","dgcadde"));
 
     }
     public static String GetCommon (String str1, String str2) {
@@ -29,6 +29,6 @@ public class 字符串中最大公共子串 {
                 }
             }
         }
-        return str1.substring(end-maxlen,end);
+        return str1.substring(end-maxlen+1,end);
     }
 }
