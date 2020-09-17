@@ -1,3 +1,5 @@
+package 笔试;
+
 class Singleton{
     private volatile static Singleton instance;
     private Singleton(){};
