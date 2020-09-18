@@ -8,7 +8,8 @@ public class 走迷宫 {
         char[][] nums=new char[][]{{'E','.','.'},
                                     {'#','.','#'},
                                     {'#','.','S'}} ;
-        if (dfs(nums,0,0)){
+        dfs(nums,0,0);
+        if (b){
             System.out.println("TRUE");
         }else {
             System.out.println("NO");
@@ -44,11 +45,13 @@ public class 走迷宫 {
         }
         return  false;
     }
-    boolean b=false;
-    public  static  boolean dfs(char[][] nums ,int i,int j){
+    static  boolean b=false;
+    public  static  void dfs(char[][] nums ,int i,int j){
 
-        if (nums[i][j]=='S') return true;
-
+        if (nums[i][j]=='S') {
+            b=true;
+            return;
+        }
         nums[i][j]='#';
 //            for(int k=0;k<4;k++){
 //                int x=i;
@@ -64,6 +67,6 @@ public class 走迷宫 {
             //右
             if (j+1<nums.length&&nums[i][j+1]!='#') dfs(nums ,i,j+1);
 
-       
+       return;
     }
 }
