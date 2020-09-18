@@ -9,27 +9,33 @@ A + B
  */
 /*
 样例输入
-1 2
-3 4
-5 6
+5
+1,2,5
  */
 /*
 样例输出
-3
-7
-11
+125
  */
 public class 样例输入1 {
 
         public static void main(String args[])
         {
             Scanner cin = new Scanner(System.in);
-            int a, b;
-            while(cin.hasNextInt())
-            {
-                a = cin.nextInt();
-                b = cin.nextInt();
-                System.out.println(a + b);
+            int n=cin.nextInt();
+            cin.nextLine();
+            String s=cin.nextLine();
+            String[] string=s.split(",");
+            int[] nums=new int[string.length];
+            for (int i=0;i<string.length;i++){
+                nums[i]=Integer.parseInt(string[i]);
+                System.out.print(nums[i]);
             }
+//            int a, b;
+//            while(cin.hasNextInt())
+//            {
+//                a = cin.nextInt();
+//                b = cin.nextInt();
+//                System.out.println(a + b);
+//            }
          }
 }
