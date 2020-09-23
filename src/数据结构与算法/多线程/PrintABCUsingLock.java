@@ -1,4 +1,4 @@
-package 数据结构与算法;
+package 数据结构与算法.多线程;
 
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;

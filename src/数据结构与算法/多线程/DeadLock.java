@@ -1,4 +1,4 @@
-package 数据结构与算法;
+package 数据结构与算法.多线程;
 
 public class DeadLock {
     public static String obj1 = "obj1";
