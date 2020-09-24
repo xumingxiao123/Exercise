@@ -1,7 +1,9 @@
+package 笔试.跟谁学;
+
 public class Solution {
 
     public static void main(String[] args) {
-        System.out.print(helper(15));
+        System.out.print(helper(100));
         //System.out.print(helper2(5));
 
     }
