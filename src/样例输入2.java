@@ -15,7 +15,7 @@ import java.util.Scanner;
 2 5 1
 3 2 1
 * */
-public class 样例输入之动脑子认老乡 {
+public class 样例输入2 {
 
         public static void main(String args[])
         {
