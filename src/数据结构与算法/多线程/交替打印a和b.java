@@ -29,5 +29,4 @@ class PrintNumberIncrInSynchronized {
         },"奇数").start();
 
     }
-
 }
