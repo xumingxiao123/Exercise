@@ -17,7 +17,7 @@ public class 蛇形打印 {
             int down = N-1;
             int left = 0;
             int right = N-1;
-            for (int i=0;i<=N/2;i++){
+            for (int i=0;i<=N/2+1;i++){
 
                 value=getShunDigit(nums,N,value,up,down,left,right);
                  up = up+1;
